@@ -1,27 +1,26 @@
-# ContadorApp
+Contador-app
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
+Contador-app es una aplicación web que permite a los usuarios contar y guardar números. Está construido con Angular y utiliza la versión 15.1.0 de las dependencias de Angular.
 
-## Development server
+Instalación
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Para instalar Contador-app, primero necesitas tener Node.js y npm instalados en tu computadora. Luego, descarga el código fuente desde GitHub:
 
-## Code scaffolding
+Bash
+git clone https://github.com/username/contador-app 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+Una vez descargado, instala las dependencias necesarias ejecutando el siguiente comando en la carpeta raíz del proyecto:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Bash
+npm install 
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Una vez que todas las dependencias se hayan instalado correctamente, puedes iniciar la aplicación ejecutando el siguiente comando:
 
-## Running end-to-end tests
+Bash
+npm start 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Uso
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Una vez que la aplicación esté en ejecución, puedes abrir tu navegador web favorito y acceder a http://localhost:4200 para ver la interfaz de usuario de Contador-app. Desde aquí puedes contar los números deseados y guardarlos para su uso posterior.
